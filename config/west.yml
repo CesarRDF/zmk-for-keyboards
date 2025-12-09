@@ -4,15 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: petejohanson
       url-base: https://github.com/petejohanson
-    - name: globalkeith
-      url-base: https://github.com/globalkeith
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-bongocat-widget
-      remote: globalkeith                     # <--- Agregamos el proyecto del gato
-      revision: main
   self:
     path: config
